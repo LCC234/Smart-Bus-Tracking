@@ -1,0 +1,578 @@
+Bus A1,103.76983,1.2942,Kent Ridge Bus Terminal,Arrived,0
+Bus A1,103.7698,1.29415,LT 13,Next Stop,45
+Bus A1,103.76974,1.29408,LT 13,Next Stop,44
+Bus A1,103.7696,1.29392,LT 13,Next Stop,43
+Bus A1,103.76954,1.29387,LT 13,Next Stop,42
+Bus A1,103.76951,1.29385,LT 13,Next Stop,41
+Bus A1,103.76947,1.29383,LT 13,Next Stop,40
+Bus A1,103.76942,1.29382,LT 13,Next Stop,39
+Bus A1,103.76938,1.29382,LT 13,Next Stop,38
+Bus A1,103.76932,1.29382,LT 13,Next Stop,37
+Bus A1,103.76918,1.29386,LT 13,Next Stop,36
+Bus A1,103.76907,1.29393,LT 13,Next Stop,35
+Bus A1,103.76909,1.29397,LT 13,Next Stop,34
+Bus A1,103.76916,1.29406,LT 13,Next Stop,33
+Bus A1,103.76921,1.29414,LT 13,Next Stop,32
+Bus A1,103.76927,1.29425,LT 13,Next Stop,31
+Bus A1,103.76929,1.29429,LT 13,Next Stop,30
+Bus A1,103.76939,1.29453,LT 13,Next Stop,29
+Bus A1,103.76945,1.29474,LT 13,Next Stop,28
+Bus A1,103.76949,1.2949,LT 13,Next Stop,27
+Bus A1,103.7695,1.29497,LT 13,Next Stop,26
+Bus A1,103.76954,1.2953,LT 13,Next Stop,25
+Bus A1,103.76957,1.29556,LT 13,Next Stop,24
+Bus A1,103.76958,1.29605,LT 13,Next Stop,23
+Bus A1,103.76959,1.29614,LT 13,Next Stop,22
+Bus A1,103.76972,1.29614,LT 13,Next Stop,21
+Bus A1,103.76998,1.29619,LT 13,Next Stop,20
+Bus A1,103.77049,1.29634,LT 13,Next Stop,19
+Bus A1,103.77063,1.29636,LT 13,Next Stop,18
+Bus A1,103.77071,1.29637,LT 13,Next Stop,17
+Bus A1,103.77096,1.29638,LT 13,Next Stop,16
+Bus A1,103.77095,1.29631,LT 13,Next Stop,15
+Bus A1,103.77093,1.29618,LT 13,Next Stop,14
+Bus A1,103.77092,1.29605,LT 13,Next Stop,13
+Bus A1,103.77089,1.29588,LT 13,Next Stop,12
+Bus A1,103.77086,1.29579,LT 13,Next Stop,11
+Bus A1,103.77085,1.29573,LT 13,Next Stop,10
+Bus A1,103.77081,1.29565,LT 13,Next Stop,9
+Bus A1,103.77075,1.29554,LT 13,Next Stop,8
+Bus A1,103.7707,1.29545,LT 13,Next Stop,7
+Bus A1,103.77063,1.29531,LT 13,Next Stop,6
+Bus A1,103.77058,1.29517,LT 13,Next Stop,5
+Bus A1,103.77057,1.29507,LT 13,Next Stop,4
+Bus A1,103.77056,1.295,LT 13,Next Stop,3
+Bus A1,103.77055,1.29494,LT 13,Next Stop,2
+Bus A1,103.77055,1.29487,LT 13,Next Stop,1
+Bus A1,103.77055,1.2948,LT 13,Arrived,0
+Bus A1,103.77056,1.29472,AS 5,Next Stop,20
+Bus A1,103.77056,1.29464,AS 5,Next Stop,19
+Bus A1,103.77057,1.2946,AS 5,Next Stop,18
+Bus A1,103.77057,1.29456,AS 5,Next Stop,17
+Bus A1,103.77059,1.29451,AS 5,Next Stop,16
+Bus A1,103.7706,1.29446,AS 5,Next Stop,15
+Bus A1,103.7706,1.29444,AS 5,Next Stop,14
+Bus A1,103.77061,1.29442,AS 5,Next Stop,13
+Bus A1,103.77063,1.29437,AS 5,Next Stop,12
+Bus A1,103.7707,1.29419,AS 5,Next Stop,11
+Bus A1,103.77081,1.29402,AS 5,Next Stop,10
+Bus A1,103.77093,1.29388,AS 5,Next Stop,9
+Bus A1,103.77107,1.29375,AS 5,Next Stop,8
+Bus A1,103.7712,1.29366,AS 5,Next Stop,7
+Bus A1,103.77126,1.29363,AS 5,Next Stop,6
+Bus A1,103.77135,1.29358,AS 5,Next Stop,5
+Bus A1,103.77149,1.29352,AS 5,Next Stop,4
+Bus A1,103.77155,1.29351,AS 5,Next Stop,3
+Bus A1,103.77161,1.29349,AS 5,Next Stop,2
+Bus A1,103.7717,1.29347,AS 5,Next Stop,1
+Bus A1,103.7718,1.29345,AS 5,Arrived,0
+Bus A1,103.77193,1.29343,COM 2,Next Stop,26
+Bus A1,103.77219,1.2934,COM 2,Next Stop,25
+Bus A1,103.77216,1.2936,COM 2,Next Stop,24
+Bus A1,103.77222,1.29377,COM 2,Next Stop,23
+Bus A1,103.77227,1.29387,COM 2,Next Stop,22
+Bus A1,103.77234,1.29396,COM 2,Next Stop,21
+Bus A1,103.77239,1.29401,COM 2,Next Stop,20
+Bus A1,103.77246,1.29406,COM 2,Next Stop,19
+Bus A1,103.77259,1.29415,COM 2,Next Stop,18
+Bus A1,103.77266,1.29421,COM 2,Next Stop,17
+Bus A1,103.77271,1.29427,COM 2,Next Stop,16
+Bus A1,103.77274,1.29431,COM 2,Next Stop,15
+Bus A1,103.77276,1.29434,COM 2,Next Stop,14
+Bus A1,103.77289,1.29462,COM 2,Next Stop,13
+Bus A1,103.77296,1.29483,COM 2,Next Stop,12
+Bus A1,103.773,1.29488,COM 2,Next Stop,11
+Bus A1,103.77304,1.29493,COM 2,Next Stop,10
+Bus A1,103.7731,1.29497,COM 2,Next Stop,9
+Bus A1,103.77318,1.29501,COM 2,Next Stop,8
+Bus A1,103.77323,1.29501,COM 2,Next Stop,7
+Bus A1,103.77327,1.295,COM 2,Next Stop,6
+Bus A1,103.77335,1.29499,COM 2,Next Stop,5
+Bus A1,103.77344,1.29497,COM 2,Next Stop,4
+Bus A1,103.7735,1.29493,COM 2,Next Stop,3
+Bus A1,103.77355,1.29487,COM 2,Next Stop,2
+Bus A1,103.77385,1.29454,COM 2,Next Stop,1
+Bus A1,103.77386,1.29452,COM 2,Arrived,0
+Bus A1,103.77387,1.2945,Biz 2,Next Stop,74
+Bus A1,103.77386,1.29448,Biz 2,Next Stop,73
+Bus A1,103.77386,1.29446,Biz 2,Next Stop,72
+Bus A1,103.77385,1.29444,Biz 2,Next Stop,71
+Bus A1,103.77384,1.29442,Biz 2,Next Stop,70
+Bus A1,103.77383,1.29441,Biz 2,Next Stop,69
+Bus A1,103.77378,1.29436,Biz 2,Next Stop,68
+Bus A1,103.77369,1.29426,Biz 2,Next Stop,67
+Bus A1,103.77368,1.29425,Biz 2,Next Stop,66
+Bus A1,103.77366,1.29425,Biz 2,Next Stop,65
+Bus A1,103.77365,1.29425,Biz 2,Next Stop,64
+Bus A1,103.77364,1.29425,Biz 2,Next Stop,63
+Bus A1,103.77362,1.29426,Biz 2,Next Stop,62
+Bus A1,103.77352,1.29437,Biz 2,Next Stop,61
+Bus A1,103.77335,1.29456,Biz 2,Next Stop,60
+Bus A1,103.77333,1.29458,Biz 2,Next Stop,59
+Bus A1,103.77331,1.29459,Biz 2,Next Stop,58
+Bus A1,103.77329,1.2946,Biz 2,Next Stop,57
+Bus A1,103.77327,1.2946,Biz 2,Next Stop,56
+Bus A1,103.77324,1.29459,Biz 2,Next Stop,55
+Bus A1,103.77323,1.29458,Biz 2,Next Stop,54
+Bus A1,103.77321,1.29458,Biz 2,Next Stop,53
+Bus A1,103.77317,1.29455,Biz 2,Next Stop,52
+Bus A1,103.77315,1.29454,Biz 2,Next Stop,51
+Bus A1,103.77314,1.29453,Biz 2,Next Stop,50
+Bus A1,103.77313,1.29453,Biz 2,Next Stop,49
+Bus A1,103.7731,1.29455,Biz 2,Next Stop,48
+Bus A1,103.77302,1.29457,Biz 2,Next Stop,47
+Bus A1,103.77289,1.29462,Biz 2,Next Stop,46
+Bus A1,103.77276,1.29434,Biz 2,Next Stop,45
+Bus A1,103.77274,1.29431,Biz 2,Next Stop,44
+Bus A1,103.77271,1.29427,Biz 2,Next Stop,43
+Bus A1,103.77266,1.29421,Biz 2,Next Stop,42
+Bus A1,103.77259,1.29415,Biz 2,Next Stop,41
+Bus A1,103.77246,1.29406,Biz 2,Next Stop,40
+Bus A1,103.77239,1.29401,Biz 2,Next Stop,39
+Bus A1,103.77234,1.29396,Biz 2,Next Stop,38
+Bus A1,103.77227,1.29387,Biz 2,Next Stop,37
+Bus A1,103.77222,1.29377,Biz 2,Next Stop,36
+Bus A1,103.77216,1.2936,Biz 2,Next Stop,35
+Bus A1,103.77219,1.2934,Biz 2,Next Stop,34
+Bus A1,103.77238,1.29335,Biz 2,Next Stop,33
+Bus A1,103.77258,1.29328,Biz 2,Next Stop,32
+Bus A1,103.7727,1.29323,Biz 2,Next Stop,31
+Bus A1,103.77277,1.2932,Biz 2,Next Stop,30
+Bus A1,103.77278,1.2932,Biz 2,Next Stop,29
+Bus A1,103.77286,1.29316,Biz 2,Next Stop,28
+Bus A1,103.77291,1.29313,Biz 2,Next Stop,27
+Bus A1,103.77297,1.2931,Biz 2,Next Stop,26
+Bus A1,103.77302,1.29307,Biz 2,Next Stop,25
+Bus A1,103.77306,1.29304,Biz 2,Next Stop,24
+Bus A1,103.77311,1.29301,Biz 2,Next Stop,23
+Bus A1,103.77319,1.29295,Biz 2,Next Stop,22
+Bus A1,103.77324,1.29291,Biz 2,Next Stop,21
+Bus A1,103.77342,1.29275,Biz 2,Next Stop,20
+Bus A1,103.77345,1.29272,Biz 2,Next Stop,19
+Bus A1,103.77355,1.29263,Biz 2,Next Stop,18
+Bus A1,103.77367,1.2925,Biz 2,Next Stop,17
+Bus A1,103.77381,1.29234,Biz 2,Next Stop,16
+Bus A1,103.77384,1.2923,Biz 2,Next Stop,15
+Bus A1,103.77387,1.29226,Biz 2,Next Stop,14
+Bus A1,103.77393,1.29224,Biz 2,Next Stop,13
+Bus A1,103.77422,1.29219,Biz 2,Next Stop,12
+Bus A1,103.77429,1.29218,Biz 2,Next Stop,11
+Bus A1,103.77439,1.29218,Biz 2,Next Stop,10
+Bus A1,103.77446,1.29217,Biz 2,Next Stop,9
+Bus A1,103.77457,1.29229,Biz 2,Next Stop,8
+Bus A1,103.77469,1.29247,Biz 2,Next Stop,7
+Bus A1,103.77472,1.29252,Biz 2,Next Stop,6
+Bus A1,103.77479,1.29262,Biz 2,Next Stop,5
+Bus A1,103.77488,1.29275,Biz 2,Next Stop,4
+Bus A1,103.77497,1.29289,Biz 2,Next Stop,3
+Bus A1,103.775,1.29294,Biz 2,Next Stop,2
+Bus A1,103.77502,1.29298,Biz 2,Next Stop,1
+Bus A1,103.77506,1.29305,Biz 2,Arrived,0
+Bus A1,103.77506,1.29306,Opp TCOMS,Next Stop,38
+Bus A1,103.77511,1.29318,Opp TCOMS,Next Stop,37
+Bus A1,103.7752,1.29343,Opp TCOMS,Next Stop,36
+Bus A1,103.77525,1.29358,Opp TCOMS,Next Stop,35
+Bus A1,103.77527,1.29364,Opp TCOMS,Next Stop,34
+Bus A1,103.77528,1.29367,Opp TCOMS,Next Stop,33
+Bus A1,103.77529,1.29368,Opp TCOMS,Next Stop,32
+Bus A1,103.7753,1.2937,Opp TCOMS,Next Stop,31
+Bus A1,103.77532,1.29375,Opp TCOMS,Next Stop,30
+Bus A1,103.77537,1.29375,Opp TCOMS,Next Stop,29
+Bus A1,103.7754,1.29376,Opp TCOMS,Next Stop,28
+Bus A1,103.77542,1.29376,Opp TCOMS,Next Stop,27
+Bus A1,103.77545,1.29376,Opp TCOMS,Next Stop,26
+Bus A1,103.7755,1.29378,Opp TCOMS,Next Stop,25
+Bus A1,103.77553,1.29376,Opp TCOMS,Next Stop,24
+Bus A1,103.77554,1.29375,Opp TCOMS,Next Stop,23
+Bus A1,103.77555,1.29374,Opp TCOMS,Next Stop,22
+Bus A1,103.77558,1.29373,Opp TCOMS,Next Stop,21
+Bus A1,103.7758,1.29376,Opp TCOMS,Next Stop,20
+Bus A1,103.77584,1.29376,Opp TCOMS,Next Stop,19
+Bus A1,103.77596,1.29376,Opp TCOMS,Next Stop,18
+Bus A1,103.77609,1.29376,Opp TCOMS,Next Stop,17
+Bus A1,103.77615,1.29375,Opp TCOMS,Next Stop,16
+Bus A1,103.77619,1.29374,Opp TCOMS,Next Stop,15
+Bus A1,103.77621,1.29374,Opp TCOMS,Next Stop,14
+Bus A1,103.77624,1.29374,Opp TCOMS,Next Stop,13
+Bus A1,103.77626,1.29374,Opp TCOMS,Next Stop,12
+Bus A1,103.7764,1.29374,Opp TCOMS,Next Stop,11
+Bus A1,103.77643,1.29374,Opp TCOMS,Next Stop,10
+Bus A1,103.7766,1.29375,Opp TCOMS,Next Stop,9
+Bus A1,103.77669,1.29375,Opp TCOMS,Next Stop,8
+Bus A1,103.7767,1.29375,Opp TCOMS,Next Stop,7
+Bus A1,103.77677,1.29375,Opp TCOMS,Next Stop,6
+Bus A1,103.77678,1.29375,Opp TCOMS,Next Stop,5
+Bus A1,103.77679,1.29375,Opp TCOMS,Next Stop,4
+Bus A1,103.7768,1.29375,Opp TCOMS,Next Stop,3
+Bus A1,103.77685,1.29374,Opp TCOMS,Next Stop,2
+Bus A1,103.77686,1.29374,Opp TCOMS,Next Stop,1
+Bus A1,103.77691,1.29372,Opp TCOMS,Arrived,0
+Bus A1,103.77693,1.29371,Prince George's Park,Next Stop,42
+Bus A1,103.77698,1.2937,Prince George's Park,Next Stop,41
+Bus A1,103.77704,1.29366,Prince George's Park,Next Stop,40
+Bus A1,103.77726,1.29351,Prince George's Park,Next Stop,39
+Bus A1,103.77774,1.29319,Prince George's Park,Next Stop,38
+Bus A1,103.77794,1.29309,Prince George's Park,Next Stop,37
+Bus A1,103.77797,1.29307,Prince George's Park,Next Stop,36
+Bus A1,103.77807,1.29304,Prince George's Park,Next Stop,35
+Bus A1,103.77819,1.29301,Prince George's Park,Next Stop,34
+Bus A1,103.77835,1.29298,Prince George's Park,Next Stop,33
+Bus A1,103.77844,1.29297,Prince George's Park,Next Stop,32
+Bus A1,103.7786,1.29296,Prince George's Park,Next Stop,31
+Bus A1,103.77869,1.29295,Prince George's Park,Next Stop,30
+Bus A1,103.77876,1.29295,Prince George's Park,Next Stop,29
+Bus A1,103.7789,1.29292,Prince George's Park,Next Stop,28
+Bus A1,103.77896,1.29289,Prince George's Park,Next Stop,27
+Bus A1,103.77903,1.29286,Prince George's Park,Next Stop,26
+Bus A1,103.77913,1.29281,Prince George's Park,Next Stop,25
+Bus A1,103.77922,1.29275,Prince George's Park,Next Stop,24
+Bus A1,103.7793,1.2927,Prince George's Park,Next Stop,23
+Bus A1,103.77933,1.29267,Prince George's Park,Next Stop,22
+Bus A1,103.77939,1.29262,Prince George's Park,Next Stop,21
+Bus A1,103.77947,1.29256,Prince George's Park,Next Stop,20
+Bus A1,103.77948,1.29255,Prince George's Park,Next Stop,19
+Bus A1,103.77967,1.29241,Prince George's Park,Next Stop,18
+Bus A1,103.77974,1.29236,Prince George's Park,Next Stop,17
+Bus A1,103.77982,1.29232,Prince George's Park,Next Stop,16
+Bus A1,103.77994,1.29227,Prince George's Park,Next Stop,15
+Bus A1,103.78005,1.29223,Prince George's Park,Next Stop,14
+Bus A1,103.78012,1.2922,Prince George's Park,Next Stop,13
+Bus A1,103.78014,1.29219,Prince George's Park,Next Stop,12
+Bus A1,103.78016,1.29218,Prince George's Park,Next Stop,11
+Bus A1,103.78018,1.29217,Prince George's Park,Next Stop,10
+Bus A1,103.78019,1.29216,Prince George's Park,Next Stop,9
+Bus A1,103.7802,1.29214,Prince George's Park,Next Stop,8
+Bus A1,103.78023,1.29211,Prince George's Park,Next Stop,7
+Bus A1,103.78025,1.29208,Prince George's Park,Next Stop,6
+Bus A1,103.78029,1.29203,Prince George's Park,Next Stop,5
+Bus A1,103.78032,1.29197,Prince George's Park,Next Stop,4
+Bus A1,103.78034,1.29192,Prince George's Park,Next Stop,3
+Bus A1,103.78035,1.29188,Prince George's Park,Next Stop,2
+Bus A1,103.78036,1.29184,Prince George's Park,Next Stop,1
+Bus A1,103.78036,1.29179,Prince George's Park,Arrived,0
+Bus A1,103.78037,1.29175,Kent Ridge MRT,Next Stop,79
+Bus A1,103.78037,1.29172,Kent Ridge MRT,Next Stop,78
+Bus A1,103.78038,1.29168,Kent Ridge MRT,Next Stop,77
+Bus A1,103.7804,1.29161,Kent Ridge MRT,Next Stop,76
+Bus A1,103.78042,1.29155,Kent Ridge MRT,Next Stop,75
+Bus A1,103.78047,1.29146,Kent Ridge MRT,Next Stop,74
+Bus A1,103.78052,1.2914,Kent Ridge MRT,Next Stop,73
+Bus A1,103.78056,1.29134,Kent Ridge MRT,Next Stop,72
+Bus A1,103.78059,1.29131,Kent Ridge MRT,Next Stop,71
+Bus A1,103.78061,1.29129,Kent Ridge MRT,Next Stop,70
+Bus A1,103.78066,1.29125,Kent Ridge MRT,Next Stop,69
+Bus A1,103.78071,1.29121,Kent Ridge MRT,Next Stop,68
+Bus A1,103.78075,1.29119,Kent Ridge MRT,Next Stop,67
+Bus A1,103.78081,1.29116,Kent Ridge MRT,Next Stop,66
+Bus A1,103.78087,1.29115,Kent Ridge MRT,Next Stop,65
+Bus A1,103.7809,1.29115,Kent Ridge MRT,Next Stop,64
+Bus A1,103.78094,1.29114,Kent Ridge MRT,Next Stop,63
+Bus A1,103.78097,1.29114,Kent Ridge MRT,Next Stop,62
+Bus A1,103.78101,1.29114,Kent Ridge MRT,Next Stop,61
+Bus A1,103.78108,1.29115,Kent Ridge MRT,Next Stop,60
+Bus A1,103.78114,1.29116,Kent Ridge MRT,Next Stop,59
+Bus A1,103.78123,1.29117,Kent Ridge MRT,Next Stop,58
+Bus A1,103.78132,1.29119,Kent Ridge MRT,Next Stop,57
+Bus A1,103.78142,1.29121,Kent Ridge MRT,Next Stop,56
+Bus A1,103.78151,1.29123,Kent Ridge MRT,Next Stop,55
+Bus A1,103.78158,1.29125,Kent Ridge MRT,Next Stop,54
+Bus A1,103.78162,1.29126,Kent Ridge MRT,Next Stop,53
+Bus A1,103.78168,1.29127,Kent Ridge MRT,Next Stop,52
+Bus A1,103.78169,1.29128,Kent Ridge MRT,Next Stop,51
+Bus A1,103.78174,1.2913,Kent Ridge MRT,Next Stop,50
+Bus A1,103.78196,1.29139,Kent Ridge MRT,Next Stop,49
+Bus A1,103.7821,1.29146,Kent Ridge MRT,Next Stop,48
+Bus A1,103.7825,1.29163,Kent Ridge MRT,Next Stop,47
+Bus A1,103.7827,1.29172,Kent Ridge MRT,Next Stop,46
+Bus A1,103.78283,1.29178,Kent Ridge MRT,Next Stop,45
+Bus A1,103.78293,1.29183,Kent Ridge MRT,Next Stop,44
+Bus A1,103.78294,1.29183,Kent Ridge MRT,Next Stop,43
+Bus A1,103.78299,1.29187,Kent Ridge MRT,Next Stop,42
+Bus A1,103.78311,1.29194,Kent Ridge MRT,Next Stop,41
+Bus A1,103.78319,1.29197,Kent Ridge MRT,Next Stop,40
+Bus A1,103.7832,1.29191,Kent Ridge MRT,Next Stop,39
+Bus A1,103.7832,1.2919,Kent Ridge MRT,Next Stop,38
+Bus A1,103.78321,1.29189,Kent Ridge MRT,Next Stop,37
+Bus A1,103.78328,1.29181,Kent Ridge MRT,Next Stop,36
+Bus A1,103.78335,1.29173,Kent Ridge MRT,Next Stop,35
+Bus A1,103.78351,1.29159,Kent Ridge MRT,Next Stop,34
+Bus A1,103.78361,1.29167,Kent Ridge MRT,Next Stop,33
+Bus A1,103.78374,1.29179,Kent Ridge MRT,Next Stop,32
+Bus A1,103.78385,1.29189,Kent Ridge MRT,Next Stop,31
+Bus A1,103.78391,1.29195,Kent Ridge MRT,Next Stop,30
+Bus A1,103.78395,1.29199,Kent Ridge MRT,Next Stop,29
+Bus A1,103.78413,1.29217,Kent Ridge MRT,Next Stop,28
+Bus A1,103.78419,1.29222,Kent Ridge MRT,Next Stop,27
+Bus A1,103.78455,1.29259,Kent Ridge MRT,Next Stop,26
+Bus A1,103.78483,1.29288,Kent Ridge MRT,Next Stop,25
+Bus A1,103.78505,1.29311,Kent Ridge MRT,Next Stop,24
+Bus A1,103.78506,1.29322,Kent Ridge MRT,Next Stop,23
+Bus A1,103.78505,1.29328,Kent Ridge MRT,Next Stop,22
+Bus A1,103.78505,1.29333,Kent Ridge MRT,Next Stop,21
+Bus A1,103.78504,1.29338,Kent Ridge MRT,Next Stop,20
+Bus A1,103.78503,1.29343,Kent Ridge MRT,Next Stop,19
+Bus A1,103.78502,1.2935,Kent Ridge MRT,Next Stop,18
+Bus A1,103.78498,1.29358,Kent Ridge MRT,Next Stop,17
+Bus A1,103.78496,1.29363,Kent Ridge MRT,Next Stop,16
+Bus A1,103.78495,1.29368,Kent Ridge MRT,Next Stop,15
+Bus A1,103.78493,1.2938,Kent Ridge MRT,Next Stop,14
+Bus A1,103.78492,1.29391,Kent Ridge MRT,Next Stop,13
+Bus A1,103.78491,1.29399,Kent Ridge MRT,Next Stop,12
+Bus A1,103.78491,1.29405,Kent Ridge MRT,Next Stop,11
+Bus A1,103.78491,1.29408,Kent Ridge MRT,Next Stop,10
+Bus A1,103.78491,1.2941,Kent Ridge MRT,Next Stop,9
+Bus A1,103.78491,1.29413,Kent Ridge MRT,Next Stop,8
+Bus A1,103.7849,1.29415,Kent Ridge MRT,Next Stop,7
+Bus A1,103.78489,1.29418,Kent Ridge MRT,Next Stop,6
+Bus A1,103.78488,1.29423,Kent Ridge MRT,Next Stop,5
+Bus A1,103.78487,1.29428,Kent Ridge MRT,Next Stop,4
+Bus A1,103.78484,1.29434,Kent Ridge MRT,Next Stop,3
+Bus A1,103.78482,1.29439,Kent Ridge MRT,Next Stop,2
+Bus A1,103.78479,1.29444,Kent Ridge MRT,Next Stop,1
+Bus A1,103.78469,1.29457,Kent Ridge MRT,Arrived,0
+Bus A1,103.78466,1.29462,LT 27,Next Stop,85
+Bus A1,103.78449,1.29486,LT 27,Next Stop,84
+Bus A1,103.7844,1.29498,LT 27,Next Stop,83
+Bus A1,103.78432,1.2951,LT 27,Next Stop,82
+Bus A1,103.78418,1.29531,LT 27,Next Stop,81
+Bus A1,103.78417,1.29537,LT 27,Next Stop,80
+Bus A1,103.78416,1.29537,LT 27,Next Stop,79
+Bus A1,103.78415,1.29537,LT 27,Next Stop,78
+Bus A1,103.78414,1.29537,LT 27,Next Stop,77
+Bus A1,103.78413,1.29537,LT 27,Next Stop,76
+Bus A1,103.78412,1.29537,LT 27,Next Stop,75
+Bus A1,103.78412,1.29538,LT 27,Next Stop,74
+Bus A1,103.78411,1.29538,LT 27,Next Stop,73
+Bus A1,103.7841,1.29539,LT 27,Next Stop,72
+Bus A1,103.78409,1.29539,LT 27,Next Stop,71
+Bus A1,103.78409,1.2954,LT 27,Next Stop,70
+Bus A1,103.78408,1.2954,LT 27,Next Stop,69
+Bus A1,103.78408,1.29541,LT 27,Next Stop,68
+Bus A1,103.78408,1.29542,LT 27,Next Stop,67
+Bus A1,103.78407,1.29542,LT 27,Next Stop,66
+Bus A1,103.78407,1.29543,LT 27,Next Stop,65
+Bus A1,103.78407,1.29544,LT 27,Next Stop,64
+Bus A1,103.78406,1.29545,LT 27,Next Stop,63
+Bus A1,103.78406,1.29546,LT 27,Next Stop,62
+Bus A1,103.78406,1.29547,LT 27,Next Stop,61
+Bus A1,103.78406,1.29548,LT 27,Next Stop,60
+Bus A1,103.78407,1.29548,LT 27,Next Stop,59
+Bus A1,103.78407,1.29549,LT 27,Next Stop,58
+Bus A1,103.78407,1.2955,LT 27,Next Stop,57
+Bus A1,103.78399,1.29559,LT 27,Next Stop,56
+Bus A1,103.78396,1.29565,LT 27,Next Stop,55
+Bus A1,103.7838,1.29591,LT 27,Next Stop,54
+Bus A1,103.78371,1.29605,LT 27,Next Stop,53
+Bus A1,103.78364,1.29615,LT 27,Next Stop,52
+Bus A1,103.78359,1.29621,LT 27,Next Stop,51
+Bus A1,103.78356,1.29625,LT 27,Next Stop,50
+Bus A1,103.78348,1.29633,LT 27,Next Stop,49
+Bus A1,103.78339,1.29643,LT 27,Next Stop,48
+Bus A1,103.78335,1.29647,LT 27,Next Stop,47
+Bus A1,103.78325,1.29655,LT 27,Next Stop,46
+Bus A1,103.78309,1.29667,LT 27,Next Stop,45
+Bus A1,103.78302,1.29671,LT 27,Next Stop,44
+Bus A1,103.783,1.29673,LT 27,Next Stop,43
+Bus A1,103.783,1.29675,LT 27,Next Stop,42
+Bus A1,103.78299,1.29677,LT 27,Next Stop,41
+Bus A1,103.78298,1.29677,LT 27,Next Stop,40
+Bus A1,103.78297,1.29677,LT 27,Next Stop,39
+Bus A1,103.78296,1.29677,LT 27,Next Stop,38
+Bus A1,103.78294,1.29677,LT 27,Next Stop,37
+Bus A1,103.78293,1.29677,LT 27,Next Stop,36
+Bus A1,103.78292,1.29677,LT 27,Next Stop,35
+Bus A1,103.78291,1.29677,LT 27,Next Stop,34
+Bus A1,103.7829,1.29678,LT 27,Next Stop,33
+Bus A1,103.78288,1.2968,LT 27,Next Stop,32
+Bus A1,103.78288,1.29681,LT 27,Next Stop,31
+Bus A1,103.78288,1.29682,LT 27,Next Stop,30
+Bus A1,103.78287,1.29682,LT 27,Next Stop,29
+Bus A1,103.78283,1.29682,LT 27,Next Stop,28
+Bus A1,103.78282,1.29683,LT 27,Next Stop,27
+Bus A1,103.7828,1.29684,LT 27,Next Stop,26
+Bus A1,103.78272,1.29688,LT 27,Next Stop,25
+Bus A1,103.78264,1.2969,LT 27,Next Stop,24
+Bus A1,103.78259,1.29692,LT 27,Next Stop,23
+Bus A1,103.78258,1.29692,LT 27,Next Stop,22
+Bus A1,103.7825,1.29693,LT 27,Next Stop,21
+Bus A1,103.78248,1.29693,LT 27,Next Stop,20
+Bus A1,103.7824,1.29694,LT 27,Next Stop,19
+Bus A1,103.78221,1.29696,LT 27,Next Stop,18
+Bus A1,103.78212,1.297,LT 27,Next Stop,17
+Bus A1,103.78202,1.29708,LT 27,Next Stop,16
+Bus A1,103.78194,1.29713,LT 27,Next Stop,15
+Bus A1,103.7819,1.29716,LT 27,Next Stop,14
+Bus A1,103.78187,1.29718,LT 27,Next Stop,13
+Bus A1,103.78185,1.2972,LT 27,Next Stop,12
+Bus A1,103.78182,1.29723,LT 27,Next Stop,11
+Bus A1,103.78179,1.29725,LT 27,Next Stop,10
+Bus A1,103.78176,1.29728,LT 27,Next Stop,9
+Bus A1,103.78171,1.29731,LT 27,Next Stop,8
+Bus A1,103.78167,1.29734,LT 27,Next Stop,7
+Bus A1,103.78161,1.29737,LT 27,Next Stop,6
+Bus A1,103.78154,1.29741,LT 27,Next Stop,5
+Bus A1,103.7814,1.29744,LT 27,Next Stop,4
+Bus A1,103.78133,1.29746,LT 27,Next Stop,3
+Bus A1,103.78128,1.29747,LT 27,Next Stop,2
+Bus A1,103.78122,1.29748,LT 27,Next Stop,1
+Bus A1,103.781,1.29747,LT 27,Arrived,0
+Bus A1,103.78073,1.29745,University Hall,Next Stop,15
+Bus A1,103.78046,1.29742,University Hall,Next Stop,14
+Bus A1,103.78034,1.29741,University Hall,Next Stop,13
+Bus A1,103.78029,1.2974,University Hall,Next Stop,12
+Bus A1,103.78027,1.29739,University Hall,Next Stop,11
+Bus A1,103.78015,1.29737,University Hall,Next Stop,10
+Bus A1,103.78004,1.29734,University Hall,Next Stop,9
+Bus A1,103.77984,1.29727,University Hall,Next Stop,8
+Bus A1,103.77948,1.29713,University Hall,Next Stop,7
+Bus A1,103.77939,1.29712,University Hall,Next Stop,6
+Bus A1,103.77936,1.29711,University Hall,Next Stop,5
+Bus A1,103.77931,1.29712,University Hall,Next Stop,4
+Bus A1,103.77922,1.29712,University Hall,Next Stop,3
+Bus A1,103.7791,1.29712,University Hall,Next Stop,2
+Bus A1,103.77895,1.29717,University Hall,Next Stop,1
+Bus A1,103.7789,1.29718,University Hall,Arrived,0
+Bus A1,103.77887,1.29719,Opp University Health Centre,Next Stop,32
+Bus A1,103.77879,1.29722,Opp University Health Centre,Next Stop,31
+Bus A1,103.77864,1.29727,Opp University Health Centre,Next Stop,30
+Bus A1,103.77841,1.29734,Opp University Health Centre,Next Stop,29
+Bus A1,103.7781,1.29746,Opp University Health Centre,Next Stop,28
+Bus A1,103.77796,1.29752,Opp University Health Centre,Next Stop,27
+Bus A1,103.77779,1.2976,Opp University Health Centre,Next Stop,26
+Bus A1,103.77774,1.29763,Opp University Health Centre,Next Stop,25
+Bus A1,103.77762,1.29767,Opp University Health Centre,Next Stop,24
+Bus A1,103.77757,1.2977,Opp University Health Centre,Next Stop,23
+Bus A1,103.77747,1.29775,Opp University Health Centre,Next Stop,22
+Bus A1,103.77745,1.29777,Opp University Health Centre,Next Stop,21
+Bus A1,103.77736,1.29783,Opp University Health Centre,Next Stop,20
+Bus A1,103.7772,1.29794,Opp University Health Centre,Next Stop,19
+Bus A1,103.77707,1.29806,Opp University Health Centre,Next Stop,18
+Bus A1,103.77693,1.29822,Opp University Health Centre,Next Stop,17
+Bus A1,103.77685,1.29832,Opp University Health Centre,Next Stop,16
+Bus A1,103.77681,1.29836,Opp University Health Centre,Next Stop,15
+Bus A1,103.77678,1.2984,Opp University Health Centre,Next Stop,14
+Bus A1,103.7767,1.29853,Opp University Health Centre,Next Stop,13
+Bus A1,103.77665,1.29859,Opp University Health Centre,Next Stop,12
+Bus A1,103.77659,1.29865,Opp University Health Centre,Next Stop,11
+Bus A1,103.77656,1.29868,Opp University Health Centre,Next Stop,10
+Bus A1,103.77654,1.29869,Opp University Health Centre,Next Stop,9
+Bus A1,103.77646,1.29873,Opp University Health Centre,Next Stop,8
+Bus A1,103.77645,1.29874,Opp University Health Centre,Next Stop,7
+Bus A1,103.77642,1.29875,Opp University Health Centre,Next Stop,6
+Bus A1,103.77636,1.29878,Opp University Health Centre,Next Stop,5
+Bus A1,103.7763,1.29881,Opp University Health Centre,Next Stop,4
+Bus A1,103.77628,1.29882,Opp University Health Centre,Next Stop,3
+Bus A1,103.77624,1.29883,Opp University Health Centre,Next Stop,2
+Bus A1,103.77618,1.29885,Opp University Health Centre,Next Stop,1
+Bus A1,103.77616,1.29886,Opp University Health Centre,Arrived,0
+Bus A1,103.77613,1.29886,Yusof Ishak House,Next Stop,36
+Bus A1,103.77611,1.29887,Yusof Ishak House,Next Stop,35
+Bus A1,103.77601,1.29888,Yusof Ishak House,Next Stop,34
+Bus A1,103.77598,1.29888,Yusof Ishak House,Next Stop,33
+Bus A1,103.77596,1.29888,Yusof Ishak House,Next Stop,32
+Bus A1,103.77592,1.29888,Yusof Ishak House,Next Stop,31
+Bus A1,103.77578,1.29887,Yusof Ishak House,Next Stop,30
+Bus A1,103.77568,1.29886,Yusof Ishak House,Next Stop,29
+Bus A1,103.77556,1.29885,Yusof Ishak House,Next Stop,28
+Bus A1,103.7755,1.29885,Yusof Ishak House,Next Stop,27
+Bus A1,103.77548,1.29885,Yusof Ishak House,Next Stop,26
+Bus A1,103.77542,1.29886,Yusof Ishak House,Next Stop,25
+Bus A1,103.77537,1.29886,Yusof Ishak House,Next Stop,24
+Bus A1,103.77534,1.29887,Yusof Ishak House,Next Stop,23
+Bus A1,103.77532,1.29888,Yusof Ishak House,Next Stop,22
+Bus A1,103.77529,1.29889,Yusof Ishak House,Next Stop,21
+Bus A1,103.77523,1.29891,Yusof Ishak House,Next Stop,20
+Bus A1,103.77511,1.29897,Yusof Ishak House,Next Stop,19
+Bus A1,103.775,1.29904,Yusof Ishak House,Next Stop,18
+Bus A1,103.7749,1.2991,Yusof Ishak House,Next Stop,17
+Bus A1,103.77485,1.29914,Yusof Ishak House,Next Stop,16
+Bus A1,103.77471,1.29919,Yusof Ishak House,Next Stop,15
+Bus A1,103.77465,1.29921,Yusof Ishak House,Next Stop,14
+Bus A1,103.77463,1.29922,Yusof Ishak House,Next Stop,13
+Bus A1,103.77461,1.29924,Yusof Ishak House,Next Stop,12
+Bus A1,103.77458,1.29924,Yusof Ishak House,Next Stop,11
+Bus A1,103.77456,1.29924,Yusof Ishak House,Next Stop,10
+Bus A1,103.77455,1.29924,Yusof Ishak House,Next Stop,9
+Bus A1,103.77453,1.29925,Yusof Ishak House,Next Stop,8
+Bus A1,103.77447,1.29922,Yusof Ishak House,Next Stop,7
+Bus A1,103.77445,1.2992,Yusof Ishak House,Next Stop,6
+Bus A1,103.77444,1.2992,Yusof Ishak House,Next Stop,5
+Bus A1,103.77443,1.29918,Yusof Ishak House,Next Stop,4
+Bus A1,103.77441,1.29915,Yusof Ishak House,Next Stop,3
+Bus A1,103.77438,1.29908,Yusof Ishak House,Next Stop,2
+Bus A1,103.77433,1.29899,Yusof Ishak House,Next Stop,1
+Bus A1,103.77421,1.29879,Yusof Ishak House,Arrived,0
+Bus A1,103.7742,1.29877,Central Library,Next Stop,29
+Bus A1,103.7741,1.29865,Central Library,Next Stop,28
+Bus A1,103.77405,1.29859,Central Library,Next Stop,27
+Bus A1,103.77395,1.29849,Central Library,Next Stop,26
+Bus A1,103.77391,1.29847,Central Library,Next Stop,25
+Bus A1,103.77388,1.29844,Central Library,Next Stop,24
+Bus A1,103.77385,1.29842,Central Library,Next Stop,23
+Bus A1,103.77382,1.29838,Central Library,Next Stop,22
+Bus A1,103.77376,1.29834,Central Library,Next Stop,21
+Bus A1,103.77371,1.2983,Central Library,Next Stop,20
+Bus A1,103.77369,1.29828,Central Library,Next Stop,19
+Bus A1,103.77347,1.29814,Central Library,Next Stop,18
+Bus A1,103.77339,1.2981,Central Library,Next Stop,17
+Bus A1,103.77332,1.29805,Central Library,Next Stop,16
+Bus A1,103.77329,1.29803,Central Library,Next Stop,15
+Bus A1,103.77324,1.29799,Central Library,Next Stop,14
+Bus A1,103.77321,1.29796,Central Library,Next Stop,13
+Bus A1,103.77318,1.29793,Central Library,Next Stop,12
+Bus A1,103.77314,1.29789,Central Library,Next Stop,11
+Bus A1,103.77311,1.29785,Central Library,Next Stop,10
+Bus A1,103.77309,1.29782,Central Library,Next Stop,9
+Bus A1,103.77308,1.29779,Central Library,Next Stop,8
+Bus A1,103.77306,1.29776,Central Library,Next Stop,7
+Bus A1,103.77305,1.29772,Central Library,Next Stop,6
+Bus A1,103.77303,1.29766,Central Library,Next Stop,5
+Bus A1,103.77298,1.29753,Central Library,Next Stop,4
+Bus A1,103.77297,1.29746,Central Library,Next Stop,3
+Bus A1,103.77295,1.2974,Central Library,Next Stop,2
+Bus A1,103.7729,1.29727,Central Library,Next Stop,1
+Bus A1,103.77284,1.29715,Central Library,Arrived,0
+Bus A1,103.7728,1.29706,Kent Ridge Bus Terminal,Next Stop,44
+Bus A1,103.77275,1.29698,Kent Ridge Bus Terminal,Next Stop,43
+Bus A1,103.77273,1.29694,Kent Ridge Bus Terminal,Next Stop,42
+Bus A1,103.7727,1.2969,Kent Ridge Bus Terminal,Next Stop,41
+Bus A1,103.77264,1.29682,Kent Ridge Bus Terminal,Next Stop,40
+Bus A1,103.7725,1.29665,Kent Ridge Bus Terminal,Next Stop,39
+Bus A1,103.77242,1.29659,Kent Ridge Bus Terminal,Next Stop,38
+Bus A1,103.77232,1.2965,Kent Ridge Bus Terminal,Next Stop,37
+Bus A1,103.77231,1.2965,Kent Ridge Bus Terminal,Next Stop,36
+Bus A1,103.77228,1.29646,Kent Ridge Bus Terminal,Next Stop,35
+Bus A1,103.77224,1.29644,Kent Ridge Bus Terminal,Next Stop,34
+Bus A1,103.77221,1.29642,Kent Ridge Bus Terminal,Next Stop,33
+Bus A1,103.77216,1.2964,Kent Ridge Bus Terminal,Next Stop,32
+Bus A1,103.77211,1.29638,Kent Ridge Bus Terminal,Next Stop,31
+Bus A1,103.77203,1.29634,Kent Ridge Bus Terminal,Next Stop,30
+Bus A1,103.77195,1.29632,Kent Ridge Bus Terminal,Next Stop,29
+Bus A1,103.77189,1.29631,Kent Ridge Bus Terminal,Next Stop,28
+Bus A1,103.77185,1.2963,Kent Ridge Bus Terminal,Next Stop,27
+Bus A1,103.77182,1.29629,Kent Ridge Bus Terminal,Next Stop,26
+Bus A1,103.77177,1.29628,Kent Ridge Bus Terminal,Next Stop,25
+Bus A1,103.7717,1.29628,Kent Ridge Bus Terminal,Next Stop,24
+Bus A1,103.7715,1.29627,Kent Ridge Bus Terminal,Next Stop,23
+Bus A1,103.77095,1.29631,Kent Ridge Bus Terminal,Next Stop,22
+Bus A1,103.77067,1.29629,Kent Ridge Bus Terminal,Next Stop,21
+Bus A1,103.7706,1.29629,Kent Ridge Bus Terminal,Next Stop,20
+Bus A1,103.7705,1.29627,Kent Ridge Bus Terminal,Next Stop,19
+Bus A1,103.7703,1.29622,Kent Ridge Bus Terminal,Next Stop,18
+Bus A1,103.7701,1.29615,Kent Ridge Bus Terminal,Next Stop,17
+Bus A1,103.7699,1.29605,Kent Ridge Bus Terminal,Next Stop,16
+Bus A1,103.76986,1.29603,Kent Ridge Bus Terminal,Next Stop,15
+Bus A1,103.76982,1.29599,Kent Ridge Bus Terminal,Next Stop,14
+Bus A1,103.76978,1.29595,Kent Ridge Bus Terminal,Next Stop,13
+Bus A1,103.76975,1.2959,Kent Ridge Bus Terminal,Next Stop,12
+Bus A1,103.7697,1.29582,Kent Ridge Bus Terminal,Next Stop,11
+Bus A1,103.76969,1.2958,Kent Ridge Bus Terminal,Next Stop,10
+Bus A1,103.76969,1.29578,Kent Ridge Bus Terminal,Next Stop,9
+Bus A1,103.76968,1.29538,Kent Ridge Bus Terminal,Next Stop,8
+Bus A1,103.76967,1.2953,Kent Ridge Bus Terminal,Next Stop,7
+Bus A1,103.76966,1.29515,Kent Ridge Bus Terminal,Next Stop,6
+Bus A1,103.76962,1.29496,Kent Ridge Bus Terminal,Next Stop,5
+Bus A1,103.76961,1.29488,Kent Ridge Bus Terminal,Next Stop,4
+Bus A1,103.76959,1.29483,Kent Ridge Bus Terminal,Next Stop,3
+Bus A1,103.76958,1.29476,Kent Ridge Bus Terminal,Next Stop,2
+Bus A1,103.76957,1.29473,Kent Ridge Bus Terminal,Next Stop,1
