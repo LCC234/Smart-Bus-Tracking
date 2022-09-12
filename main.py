@@ -1,15 +1,14 @@
-import os
 import csv
 import logging
+from logging.handlers import TimedRotatingFileHandler
 from tb_gateway_mqtt import TBGatewayMqttClient
 import time, threading
-from datetime import datetime
 import random
 
 
 
-
-logging.basicConfig(filename='./log/' + '{:%Y-%m-%d}.log'.format(datetime.now()),
+log_filename = './log/' + 'bus_A1.log'
+logging.basicConfig(filename=log_filename,
                     filemode='a',
                     format='%(asctime)s, %(name)s %(levelname)s %(message)s',
                     datefmt='%Y-%m-%d %H:%M:%S',
@@ -22,6 +21,8 @@ console_log.setFormatter(console_formatter)
 logging.getLogger('').addHandler(console_log)
 
 log = logging.getLogger(__name__)
+handler = TimedRotatingFileHandler(log_filename, when="midnight", interval=1)
+log.addHandler(handler)
 
 publish = True
 idx = 0
@@ -37,6 +38,9 @@ bus_health_color = '#7FB77E'
 ac_faulty = False
 engine_faulty = False
 bus_occupancy_fixed = 0
+bus_healthy_count = 5
+bus_warning_count = 0
+bus_damaged_count = 0
 
 def setInterval(func,time):
     e = threading.Event()
@@ -63,6 +67,7 @@ def publishTelemetry():
 def execute_msg(msg):
     global bus_longitude, bus_latitude, bus_speed,  bus_stop,bus_stop_status, bus_fuel_level, bus_temp, bus_engine_temp, bus_occupancy, bus_eta, bus_wating_time, bus_health_status, bus_health_color,bus_health_des,bus_occupancy_fixed
     global ac_faulty,engine_faulty
+    global bus_healthy_count, bus_warning_count, bus_damaged_count
 
     if msg == 'refuel':
         log.debug("Refuel Message Received")
@@ -85,6 +90,11 @@ def execute_msg(msg):
         bus_health_status = 'Healthy'
         bus_health_des = 'Operating'
         bus_health_color = '#7FB77E'
+        bus_healthy_count = 5
+        bus_warning_count = 0
+        bus_damaged_count = 0
+        ac_faulty = False
+        
         clear_msg()
         
     
@@ -113,13 +123,17 @@ def read_msg():
     msg_file = open("./data/message.txt","r")
     msg = msg_file.readline() 
     msg_file.close()
-    print("msg: ", msg)
     return msg
+
+def update_bus_status_count(healthy_count, warning_count, damaged_count):
+    global bus_healthy_count, bus_warning_count, bus_damaged_count
+    bus_healthy_count = healthy_count 
+    bus_warning_count = warning_count 
+    bus_damaged_count = damaged_count
+
 
 def update_health(health_status,health_des, health_color):
     global bus_health_status, bus_health_color,bus_health_des
-
-    print('update health status: ', health_status,health_des, health_color)
     
     bus_health_status = health_status
     bus_health_des = health_des
@@ -142,11 +156,13 @@ def get_csv_data():
 
 def bus_down():
     global bus_longitude, bus_latitude, bus_speed,  bus_stop,bus_stop_status, bus_fuel_level, bus_temp, bus_engine_temp, bus_occupancy, bus_eta, bus_wating_time, bus_health_status, bus_health_color,bus_health_des
+    global bus_healthy_count, bus_warning_count, bus_damaged_count
+    global engine_faulty
 
     msg = ''
-    bus_health_status = 'Damaged'
-    bus_health_des = 'Engine Overheated'
-    bus_health_color = '#E94560'
+    health_des = 'Engine Overheated<div id=\"btn_contact_tech\" style=\"border:solid;user-select:none;display:block; width: 90%; font-size:1rem;text-align:center;padding:5px; margin-top:12px;cursor:pointer;\">Contact Technician</div>'
+    update_health('Damaged',health_des, '#E94560')
+    update_bus_status_count(4,0,1)
 
     while msg != 'engine_repair':
         
@@ -166,7 +182,7 @@ def bus_down():
                 bus_occupancy, 
                 bus_eta, 
                 bus_health_status,
-                bus_health_color)
+                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count)
 
         time.sleep(1)
 
@@ -176,24 +192,24 @@ def bus_down():
 
         msg = read_msg()
     
-    bus_health_status = 'Healthy'
-    bus_health_des = 'Operating'
-    bus_health_color = '#7FB77E'
+
+    update_health('Healthy','Operating', '#7FB77E')
+    update_bus_status_count(5,0,0)
     engine_faulty = False
+    bus_engine_temp = get_engine_temp(engine_faulty)
     clear_msg()
 
 
 
 def usual_routine():
     global gateway, list_CSV, publish, idx
-
     global bus_longitude, bus_latitude, bus_speed,  bus_stop,bus_stop_status, bus_fuel_level, bus_temp, bus_engine_temp, bus_occupancy, bus_eta, bus_wating_time, bus_health_status, bus_health_color
+    global bus_healthy_count, bus_warning_count, bus_damaged_count
 
     if int(list_CSV[idx][5]) == 0:
         wait_counter = 0
         bus_speed = 0
         bus_occupancy_multiplier = get_bus_occupancy_multiplier(bus_occupancy_fixed)
-        print("bus_occupancy_multiplier: ", bus_occupancy_multiplier)
         while wait_counter < bus_wating_time:
 
             send_telemetry(bus_longitude, 
@@ -208,7 +224,7 @@ def usual_routine():
                 bus_occupancy, 
                 bus_eta, 
                 bus_health_status,
-                bus_health_color)
+                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count)
 
 
             time.sleep(1)
@@ -241,7 +257,7 @@ def usual_routine():
                 bus_occupancy, 
                 bus_eta, 
                 bus_health_status,
-                bus_health_color)
+                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count)
     
         
     idx+=1
@@ -249,13 +265,38 @@ def usual_routine():
         idx = 0
 
 def set_health_status(_ac_faulty, _bus_fuel_level):
+    health_des = ''
+    health_status = ''
+    health_color = ''
+    warning_count = 0
+    healthy_count = 5
+
     if _ac_faulty:
-        health_des = "A/C Down<div id=\"btn_contact_tech\" style=\"border:solid;user-select:none;display:block; width: 90%; font-size:1rem;text-align:center;padding:5px; margin-top:12px;cursor:pointer;\">Contact Technician</div>"
-        update_health('Warning',health_des,'#FFAE6D')
-    elif _bus_fuel_level < 20.0:
-        update_health('Warning','Low Fuel','#FFAE6D')
-    else:
-        update_health('Healthy','Operating','#7FB77E')
+        health_des = "A/C Down"
+        health_status = 'Warning'
+        health_color = '#FFAE6D'
+        warning_count = 1
+        healthy_count = 4
+
+    if _bus_fuel_level < 20.0 and _ac_faulty:
+        health_des += ", Low Fuel"
+        warning_count = 1
+        healthy_count = 4
+    elif _bus_fuel_level < 20.0 and not _ac_faulty:
+        health_des = "Low Fuel"
+        health_status = 'Warning'
+        health_color = '#FFAE6D'
+        warning_count = 1
+        healthy_count = 4
+    if not _ac_faulty and _bus_fuel_level >= 20.0 :
+        health_des = 'Operating'
+        health_status = "Healthy"
+        health_color = '#7FB77E'
+        warning_count = 0
+        healthy_count = 5
+    
+    update_health(health_status,health_des,health_color)
+    update_bus_status_count(healthy_count,warning_count,0)
 
 
 
@@ -316,7 +357,7 @@ def send_telemetry(bus_longitude,
                     bus_occupancy, 
                     bus_eta, 
                     bus_health_status,
-                    bus_health_color):
+                    bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count):
 
     
     telemetry = {"ts": int(round(time.time() * 1000)), "values": {  "fuel": bus_fuel_level, 
@@ -331,9 +372,12 @@ def send_telemetry(bus_longitude,
                                                                     "health_des":bus_health_des,
                                                                     "bus_stop":bus_stop,
                                                                     "bus_stop_status":bus_stop_status,
-                                                                    "bus_health_color":bus_health_color}}
-    if (idx % 100) == 0 :
-        log.debug("{}) {} {}".format(idx, list_CSV[idx][0], telemetry)) 
+                                                                    "bus_health_color":bus_health_color,
+                                                                    "healthy_count":bus_healthy_count,
+                                                                    "warning_count":bus_warning_count,
+                                                                    "damaged_count":bus_damaged_count}}
+
+    log.debug("{}) {} {}".format(idx, list_CSV[idx][0], telemetry)) 
     
     gateway.gw_send_telemetry(list_CSV[idx][0], telemetry)
 
@@ -371,13 +415,13 @@ def main():
   
 #   time.sleep(5)
   
-  attribute_busA = {"color": "blue"}
-  gateway.gw_send_attributes("Bus A1", attribute_busA)
-  log.info("Publish Bus A1 Attribute - Color")
+#   attribute_busA = {"color": "blue"}
+#   gateway.gw_send_attributes("Bus A1", attribute_busA)
+#   log.info("Publish Bus A1 Attribute - Color")
   
 #   time.sleep(5)
   
-  file_CSV = open("./data/bus_telemetry.csv")
+  file_CSV = open("./data/bus_telemetry_A1.csv")
   data_CSV = csv.reader(file_CSV)
   list_CSV = list(data_CSV)
   log.info("Read Telemetry CSV. Total Record: %s" % len(list_CSV))

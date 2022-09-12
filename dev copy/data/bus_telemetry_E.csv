@@ -1,0 +1,446 @@
+Bus E,103.77473,1.30364,Prince Geroge's Park,Arrived,0
+Bus E,103.77475,1.30364,Kent Ridge MRT,Next Stop,44
+Bus E,103.77484,1.30365,Kent Ridge MRT,Next Stop,43
+Bus E,103.77487,1.30365,Kent Ridge MRT,Next Stop,42
+Bus E,103.77499,1.30364,Kent Ridge MRT,Next Stop,41
+Bus E,103.77505,1.30364,Kent Ridge MRT,Next Stop,40
+Bus E,103.7751,1.30364,Kent Ridge MRT,Next Stop,39
+Bus E,103.77526,1.30362,Kent Ridge MRT,Next Stop,38
+Bus E,103.77539,1.30365,Kent Ridge MRT,Next Stop,37
+Bus E,103.77548,1.30366,Kent Ridge MRT,Next Stop,36
+Bus E,103.77553,1.30368,Kent Ridge MRT,Next Stop,35
+Bus E,103.77556,1.30369,Kent Ridge MRT,Next Stop,34
+Bus E,103.77555,1.30369,Kent Ridge MRT,Next Stop,33
+Bus E,103.77555,1.3037,Kent Ridge MRT,Next Stop,32
+Bus E,103.77554,1.30371,Kent Ridge MRT,Next Stop,31
+Bus E,103.77554,1.30372,Kent Ridge MRT,Next Stop,30
+Bus E,103.77553,1.30372,Kent Ridge MRT,Next Stop,29
+Bus E,103.77553,1.30373,Kent Ridge MRT,Next Stop,28
+Bus E,103.77553,1.30374,Kent Ridge MRT,Next Stop,27
+Bus E,103.77553,1.30375,Kent Ridge MRT,Next Stop,26
+Bus E,103.77552,1.30375,Kent Ridge MRT,Next Stop,25
+Bus E,103.77552,1.30376,Kent Ridge MRT,Next Stop,24
+Bus E,103.77552,1.30377,Kent Ridge MRT,Next Stop,23
+Bus E,103.77553,1.30378,Kent Ridge MRT,Next Stop,22
+Bus E,103.77553,1.30379,Kent Ridge MRT,Next Stop,21
+Bus E,103.77553,1.3038,Kent Ridge MRT,Next Stop,20
+Bus E,103.77553,1.30381,Kent Ridge MRT,Next Stop,19
+Bus E,103.77554,1.30381,Kent Ridge MRT,Next Stop,18
+Bus E,103.77554,1.30382,Kent Ridge MRT,Next Stop,17
+Bus E,103.77555,1.30383,Kent Ridge MRT,Next Stop,16
+Bus E,103.77556,1.30384,Kent Ridge MRT,Next Stop,15
+Bus E,103.77557,1.30384,Kent Ridge MRT,Next Stop,14
+Bus E,103.77557,1.30385,Kent Ridge MRT,Next Stop,13
+Bus E,103.77558,1.30385,Kent Ridge MRT,Next Stop,12
+Bus E,103.77559,1.30386,Kent Ridge MRT,Next Stop,11
+Bus E,103.7756,1.30386,Kent Ridge MRT,Next Stop,10
+Bus E,103.77561,1.30386,Kent Ridge MRT,Next Stop,9
+Bus E,103.77562,1.30386,Kent Ridge MRT,Next Stop,8
+Bus E,103.77563,1.30386,Kent Ridge MRT,Next Stop,7
+Bus E,103.77564,1.30386,Kent Ridge MRT,Next Stop,6
+Bus E,103.77565,1.30386,Kent Ridge MRT,Next Stop,5
+Bus E,103.77566,1.30385,Kent Ridge MRT,Next Stop,4
+Bus E,103.77567,1.30385,Kent Ridge MRT,Next Stop,3
+Bus E,103.77568,1.30384,Kent Ridge MRT,Next Stop,2
+Bus E,103.77569,1.30384,Kent Ridge MRT,Next Stop,1
+Bus E,103.77569,1.30383,Kent Ridge MRT,Arrived,0
+Bus E,103.7757,1.30382,LT 27,Next Stop,44
+Bus E,103.7757,1.30381,LT 27,Next Stop,43
+Bus E,103.77571,1.30381,LT 27,Next Stop,42
+Bus E,103.77571,1.3038,LT 27,Next Stop,41
+Bus E,103.77571,1.30379,LT 27,Next Stop,40
+Bus E,103.77572,1.30378,LT 27,Next Stop,39
+Bus E,103.77572,1.30377,LT 27,Next Stop,38
+Bus E,103.77572,1.30376,LT 27,Next Stop,37
+Bus E,103.77572,1.30375,LT 27,Next Stop,36
+Bus E,103.77571,1.30373,LT 27,Next Stop,35
+Bus E,103.7757,1.30371,LT 27,Next Stop,34
+Bus E,103.77568,1.30369,LT 27,Next Stop,33
+Bus E,103.77566,1.30368,LT 27,Next Stop,32
+Bus E,103.77564,1.30367,LT 27,Next Stop,31
+Bus E,103.77561,1.30367,LT 27,Next Stop,30
+Bus E,103.77559,1.30367,LT 27,Next Stop,29
+Bus E,103.77557,1.30368,LT 27,Next Stop,28
+Bus E,103.77556,1.30369,LT 27,Next Stop,27
+Bus E,103.77553,1.30368,LT 27,Next Stop,26
+Bus E,103.77548,1.30366,LT 27,Next Stop,25
+Bus E,103.77539,1.30365,LT 27,Next Stop,24
+Bus E,103.77526,1.30362,LT 27,Next Stop,23
+Bus E,103.77513,1.3036,LT 27,Next Stop,22
+Bus E,103.77509,1.30355,LT 27,Next Stop,21
+Bus E,103.77505,1.30353,LT 27,Next Stop,20
+Bus E,103.77502,1.30351,LT 27,Next Stop,19
+Bus E,103.77497,1.3035,LT 27,Next Stop,18
+Bus E,103.77496,1.3035,LT 27,Next Stop,17
+Bus E,103.77479,1.30348,LT 27,Next Stop,16
+Bus E,103.77463,1.30345,LT 27,Next Stop,15
+Bus E,103.77453,1.30344,LT 27,Next Stop,14
+Bus E,103.77443,1.30341,LT 27,Next Stop,13
+Bus E,103.77435,1.30338,LT 27,Next Stop,12
+Bus E,103.77427,1.30335,LT 27,Next Stop,11
+Bus E,103.77421,1.30329,LT 27,Next Stop,10
+Bus E,103.77415,1.30323,LT 27,Next Stop,9
+Bus E,103.77415,1.30322,LT 27,Next Stop,8
+Bus E,103.77411,1.30318,LT 27,Next Stop,7
+Bus E,103.77408,1.30313,LT 27,Next Stop,6
+Bus E,103.77405,1.30307,LT 27,Next Stop,5
+Bus E,103.77404,1.30306,LT 27,Next Stop,4
+Bus E,103.77401,1.303,LT 27,Next Stop,3
+Bus E,103.774,1.30295,LT 27,Next Stop,2
+Bus E,103.77399,1.30291,LT 27,Next Stop,1
+Bus E,103.77398,1.30289,LT 27,Arrived,0
+Bus E,103.77397,1.3028,University Hall,Next Stop,44
+Bus E,103.77396,1.30271,University Hall,Next Stop,43
+Bus E,103.77397,1.30262,University Hall,Next Stop,42
+Bus E,103.77398,1.30256,University Hall,Next Stop,41
+Bus E,103.77398,1.30255,University Hall,Next Stop,40
+Bus E,103.774,1.30247,University Hall,Next Stop,39
+Bus E,103.77406,1.30233,University Hall,Next Stop,38
+Bus E,103.77407,1.3023,University Hall,Next Stop,37
+Bus E,103.77422,1.30198,University Hall,Next Stop,36
+Bus E,103.77436,1.30166,University Hall,Next Stop,35
+Bus E,103.77444,1.30148,University Hall,Next Stop,34
+Bus E,103.77447,1.30138,University Hall,Next Stop,33
+Bus E,103.77447,1.30137,University Hall,Next Stop,32
+Bus E,103.77448,1.30127,University Hall,Next Stop,31
+Bus E,103.77447,1.30115,University Hall,Next Stop,30
+Bus E,103.77445,1.30107,University Hall,Next Stop,29
+Bus E,103.77444,1.30102,University Hall,Next Stop,28
+Bus E,103.77441,1.30095,University Hall,Next Stop,27
+Bus E,103.77441,1.30091,University Hall,Next Stop,26
+Bus E,103.77441,1.3009,University Hall,Next Stop,25
+Bus E,103.77438,1.30084,University Hall,Next Stop,24
+Bus E,103.77437,1.3008,University Hall,Next Stop,23
+Bus E,103.77434,1.30068,University Hall,Next Stop,22
+Bus E,103.77435,1.30068,University Hall,Next Stop,21
+Bus E,103.77435,1.30067,University Hall,Next Stop,20
+Bus E,103.77435,1.30066,University Hall,Next Stop,19
+Bus E,103.77435,1.30065,University Hall,Next Stop,18
+Bus E,103.77435,1.30064,University Hall,Next Stop,17
+Bus E,103.77435,1.30063,University Hall,Next Stop,16
+Bus E,103.77435,1.30062,University Hall,Next Stop,15
+Bus E,103.77435,1.30061,University Hall,Next Stop,14
+Bus E,103.77435,1.3006,University Hall,Next Stop,13
+Bus E,103.77434,1.30059,University Hall,Next Stop,12
+Bus E,103.77434,1.30058,University Hall,Next Stop,11
+Bus E,103.77433,1.30058,University Hall,Next Stop,10
+Bus E,103.77433,1.30057,University Hall,Next Stop,9
+Bus E,103.77432,1.30056,University Hall,Next Stop,8
+Bus E,103.77432,1.30055,University Hall,Next Stop,7
+Bus E,103.77431,1.30055,University Hall,Next Stop,6
+Bus E,103.7743,1.30054,University Hall,Next Stop,5
+Bus E,103.77429,1.30054,University Hall,Next Stop,4
+Bus E,103.77428,1.30053,University Hall,Next Stop,3
+Bus E,103.77427,1.30053,University Hall,Next Stop,2
+Bus E,103.77426,1.30053,University Hall,Next Stop,1
+Bus E,103.77425,1.30052,University Hall,Arrived,0
+Bus E,103.77424,1.30052,Opp University Hall,Next Stop,44
+Bus E,103.77423,1.30052,Opp University Hall,Next Stop,43
+Bus E,103.77422,1.30053,Opp University Hall,Next Stop,42
+Bus E,103.77421,1.30053,Opp University Hall,Next Stop,41
+Bus E,103.7742,1.30053,Opp University Hall,Next Stop,40
+Bus E,103.77419,1.30053,Opp University Hall,Next Stop,39
+Bus E,103.77419,1.30054,Opp University Hall,Next Stop,38
+Bus E,103.77418,1.30054,Opp University Hall,Next Stop,37
+Bus E,103.77417,1.30055,Opp University Hall,Next Stop,36
+Bus E,103.77416,1.30055,Opp University Hall,Next Stop,35
+Bus E,103.77416,1.30056,Opp University Hall,Next Stop,34
+Bus E,103.77415,1.30057,Opp University Hall,Next Stop,33
+Bus E,103.77407,1.3006,Opp University Hall,Next Stop,32
+Bus E,103.77392,1.3007,Opp University Hall,Next Stop,31
+Bus E,103.77365,1.30087,Opp University Hall,Next Stop,30
+Bus E,103.77351,1.30094,Opp University Hall,Next Stop,29
+Bus E,103.77337,1.301,Opp University Hall,Next Stop,28
+Bus E,103.77314,1.30105,Opp University Hall,Next Stop,27
+Bus E,103.77307,1.30107,Opp University Hall,Next Stop,26
+Bus E,103.77302,1.30108,Opp University Hall,Next Stop,25
+Bus E,103.77297,1.30108,Opp University Hall,Next Stop,24
+Bus E,103.77292,1.30108,Opp University Hall,Next Stop,23
+Bus E,103.77286,1.30107,Opp University Hall,Next Stop,22
+Bus E,103.77276,1.30105,Opp University Hall,Next Stop,21
+Bus E,103.77249,1.30101,Opp University Hall,Next Stop,20
+Bus E,103.77239,1.301,Opp University Hall,Next Stop,19
+Bus E,103.77224,1.301,Opp University Hall,Next Stop,18
+Bus E,103.77216,1.301,Opp University Hall,Next Stop,17
+Bus E,103.77194,1.30102,Opp University Hall,Next Stop,16
+Bus E,103.77184,1.30104,Opp University Hall,Next Stop,15
+Bus E,103.77172,1.30107,Opp University Hall,Next Stop,14
+Bus E,103.77158,1.30112,Opp University Hall,Next Stop,13
+Bus E,103.77135,1.3012,Opp University Hall,Next Stop,12
+Bus E,103.77127,1.30123,Opp University Hall,Next Stop,11
+Bus E,103.77092,1.30137,Opp University Hall,Next Stop,10
+Bus E,103.77078,1.30142,Opp University Hall,Next Stop,9
+Bus E,103.77059,1.30149,Opp University Hall,Next Stop,8
+Bus E,103.77051,1.30151,Opp University Hall,Next Stop,7
+Bus E,103.77041,1.30157,Opp University Hall,Next Stop,6
+Bus E,103.77028,1.30163,Opp University Hall,Next Stop,5
+Bus E,103.76998,1.30174,Opp University Hall,Next Stop,4
+Bus E,103.76993,1.30178,Opp University Hall,Next Stop,3
+Bus E,103.76914,1.3021,Opp University Hall,Next Stop,2
+Bus E,103.76913,1.3021,Opp University Hall,Next Stop,1
+Bus E,103.76913,1.30209,Opp University Hall,Arrived,0
+Bus E,103.76913,1.30208,Museum,Next Stop,44
+Bus E,103.76912,1.30208,Museum,Next Stop,43
+Bus E,103.76912,1.30207,Museum,Next Stop,42
+Bus E,103.76911,1.30206,Museum,Next Stop,41
+Bus E,103.7691,1.30205,Museum,Next Stop,40
+Bus E,103.76909,1.30204,Museum,Next Stop,39
+Bus E,103.76908,1.30204,Museum,Next Stop,38
+Bus E,103.76907,1.30203,Museum,Next Stop,37
+Bus E,103.76906,1.30203,Museum,Next Stop,36
+Bus E,103.76905,1.30203,Museum,Next Stop,35
+Bus E,103.76904,1.30203,Museum,Next Stop,34
+Bus E,103.76903,1.30203,Museum,Next Stop,33
+Bus E,103.76902,1.30203,Museum,Next Stop,32
+Bus E,103.76901,1.30203,Museum,Next Stop,31
+Bus E,103.769,1.30203,Museum,Next Stop,30
+Bus E,103.769,1.30204,Museum,Next Stop,29
+Bus E,103.76899,1.30204,Museum,Next Stop,28
+Bus E,103.76898,1.30204,Museum,Next Stop,27
+Bus E,103.76897,1.30205,Museum,Next Stop,26
+Bus E,103.76896,1.30206,Museum,Next Stop,25
+Bus E,103.76895,1.30207,Museum,Next Stop,24
+Bus E,103.76895,1.30208,Museum,Next Stop,23
+Bus E,103.76894,1.30208,Museum,Next Stop,22
+Bus E,103.76894,1.30209,Museum,Next Stop,21
+Bus E,103.76894,1.3021,Museum,Next Stop,20
+Bus E,103.76893,1.30211,Museum,Next Stop,19
+Bus E,103.76893,1.30212,Museum,Next Stop,18
+Bus E,103.76893,1.30213,Museum,Next Stop,17
+Bus E,103.76893,1.30214,Museum,Next Stop,16
+Bus E,103.76893,1.30215,Museum,Next Stop,15
+Bus E,103.76893,1.30216,Museum,Next Stop,14
+Bus E,103.76894,1.30217,Museum,Next Stop,13
+Bus E,103.76894,1.30218,Museum,Next Stop,12
+Bus E,103.76894,1.30219,Museum,Next Stop,11
+Bus E,103.76895,1.30219,Museum,Next Stop,10
+Bus E,103.76895,1.3022,Museum,Next Stop,9
+Bus E,103.76896,1.3022,Museum,Next Stop,8
+Bus E,103.76896,1.30221,Museum,Next Stop,7
+Bus E,103.76897,1.30221,Museum,Next Stop,6
+Bus E,103.76897,1.30222,Museum,Next Stop,5
+Bus E,103.76898,1.30222,Museum,Next Stop,4
+Bus E,103.76899,1.30223,Museum,Next Stop,3
+Bus E,103.769,1.30223,Museum,Next Stop,2
+Bus E,103.76901,1.30223,Museum,Next Stop,1
+Bus E,103.76901,1.30224,Museum,Arrived,0
+Bus E,103.76902,1.30224,University Town Hall,Next Stop,44
+Bus E,103.76903,1.30224,University Town Hall,Next Stop,43
+Bus E,103.76904,1.30224,University Town Hall,Next Stop,42
+Bus E,103.76905,1.30224,University Town Hall,Next Stop,41
+Bus E,103.76906,1.30224,University Town Hall,Next Stop,40
+Bus E,103.76906,1.30223,University Town Hall,Next Stop,39
+Bus E,103.76907,1.30223,University Town Hall,Next Stop,38
+Bus E,103.76908,1.30223,University Town Hall,Next Stop,37
+Bus E,103.76909,1.30222,University Town Hall,Next Stop,36
+Bus E,103.7691,1.30222,University Town Hall,Next Stop,35
+Bus E,103.7691,1.30221,University Town Hall,Next Stop,34
+Bus E,103.76911,1.30221,University Town Hall,Next Stop,33
+Bus E,103.76911,1.3022,University Town Hall,Next Stop,32
+Bus E,103.76912,1.3022,University Town Hall,Next Stop,31
+Bus E,103.76912,1.30219,University Town Hall,Next Stop,30
+Bus E,103.76913,1.30219,University Town Hall,Next Stop,29
+Bus E,103.76913,1.30218,University Town Hall,Next Stop,28
+Bus E,103.76913,1.30217,University Town Hall,Next Stop,27
+Bus E,103.76914,1.30216,University Town Hall,Next Stop,26
+Bus E,103.76914,1.30215,University Town Hall,Next Stop,25
+Bus E,103.76914,1.30214,University Town Hall,Next Stop,24
+Bus E,103.76914,1.30213,University Town Hall,Next Stop,23
+Bus E,103.76914,1.30212,University Town Hall,Next Stop,22
+Bus E,103.76914,1.30211,University Town Hall,Next Stop,21
+Bus E,103.76914,1.3021,University Town Hall,Next Stop,20
+Bus E,103.76993,1.30178,University Town Hall,Next Stop,19
+Bus E,103.76999,1.30179,University Town Hall,Next Stop,18
+Bus E,103.77001,1.30179,University Town Hall,Next Stop,17
+Bus E,103.77007,1.30177,University Town Hall,Next Stop,16
+Bus E,103.77021,1.30173,University Town Hall,Next Stop,15
+Bus E,103.77031,1.3017,University Town Hall,Next Stop,14
+Bus E,103.77045,1.30167,University Town Hall,Next Stop,13
+Bus E,103.77057,1.30161,University Town Hall,Next Stop,12
+Bus E,103.77051,1.30151,University Town Hall,Next Stop,11
+Bus E,103.77049,1.30147,University Town Hall,Next Stop,10
+Bus E,103.77037,1.30122,University Town Hall,Next Stop,9
+Bus E,103.77032,1.30111,University Town Hall,Next Stop,8
+Bus E,103.77023,1.30092,University Town Hall,Next Stop,7
+Bus E,103.77017,1.3008,University Town Hall,Next Stop,6
+Bus E,103.77015,1.30075,University Town Hall,Next Stop,5
+Bus E,103.77013,1.3007,University Town Hall,Next Stop,4
+Bus E,103.77011,1.30065,University Town Hall,Next Stop,3
+Bus E,103.7701,1.3006,University Town Hall,Next Stop,2
+Bus E,103.77004,1.30045,University Town Hall,Next Stop,1
+Bus E,103.77001,1.30036,University Town Hall,Arrived,0
+Bus E,103.76996,1.30011,Opp University Hall,Next Stop,44
+Bus E,103.76993,1.29994,Opp University Hall,Next Stop,43
+Bus E,103.76992,1.29973,Opp University Hall,Next Stop,42
+Bus E,103.76992,1.29961,Opp University Hall,Next Stop,41
+Bus E,103.76992,1.2994,Opp University Hall,Next Stop,40
+Bus E,103.7699,1.29904,Opp University Hall,Next Stop,39
+Bus E,103.76988,1.29868,Opp University Hall,Next Stop,38
+Bus E,103.76988,1.29852,Opp University Hall,Next Stop,37
+Bus E,103.76988,1.29851,Opp University Hall,Next Stop,36
+Bus E,103.76986,1.29804,Opp University Hall,Next Stop,35
+Bus E,103.76985,1.29789,Opp University Hall,Next Stop,34
+Bus E,103.76986,1.29786,Opp University Hall,Next Stop,33
+Bus E,103.76986,1.29784,Opp University Hall,Next Stop,32
+Bus E,103.76986,1.29782,Opp University Hall,Next Stop,31
+Bus E,103.76986,1.2978,Opp University Hall,Next Stop,30
+Bus E,103.76986,1.29776,Opp University Hall,Next Stop,29
+Bus E,103.76978,1.29718,Opp University Hall,Next Stop,28
+Bus E,103.76975,1.2967,Opp University Hall,Next Stop,27
+Bus E,103.76974,1.29652,Opp University Hall,Next Stop,26
+Bus E,103.7698,1.29637,Opp University Hall,Next Stop,25
+Bus E,103.76981,1.29633,Opp University Hall,Next Stop,24
+Bus E,103.76983,1.2963,Opp University Hall,Next Stop,23
+Bus E,103.76986,1.29628,Opp University Hall,Next Stop,22
+Bus E,103.76988,1.29626,Opp University Hall,Next Stop,21
+Bus E,103.7699,1.29624,Opp University Hall,Next Stop,20
+Bus E,103.76998,1.29619,Opp University Hall,Next Stop,19
+Bus E,103.77049,1.29634,Opp University Hall,Next Stop,18
+Bus E,103.77063,1.29636,Opp University Hall,Next Stop,17
+Bus E,103.77071,1.29637,Opp University Hall,Next Stop,16
+Bus E,103.77096,1.29638,Opp University Hall,Next Stop,15
+Bus E,103.77105,1.29638,Opp University Hall,Next Stop,14
+Bus E,103.77131,1.29636,Opp University Hall,Next Stop,13
+Bus E,103.77137,1.29636,Opp University Hall,Next Stop,12
+Bus E,103.77148,1.29635,Opp University Hall,Next Stop,11
+Bus E,103.77153,1.29636,Opp University Hall,Next Stop,10
+Bus E,103.77167,1.29636,Opp University Hall,Next Stop,9
+Bus E,103.77178,1.29638,Opp University Hall,Next Stop,8
+Bus E,103.77186,1.29639,Opp University Hall,Next Stop,7
+Bus E,103.77194,1.29641,Opp University Hall,Next Stop,6
+Bus E,103.77198,1.29643,Opp University Hall,Next Stop,5
+Bus E,103.77202,1.29646,Opp University Hall,Next Stop,4
+Bus E,103.77207,1.29648,Opp University Hall,Next Stop,3
+Bus E,103.77218,1.29658,Opp University Hall,Next Stop,2
+Bus E,103.77222,1.29662,Opp University Hall,Next Stop,1
+Bus E,103.77227,1.29666,Opp University Hall,Arrived,0
+Bus E,103.77244,1.29683,S 17,Next Stop,44
+Bus E,103.77253,1.29693,S 17,Next Stop,43
+Bus E,103.77255,1.29695,S 17,Next Stop,42
+Bus E,103.77261,1.29703,S 17,Next Stop,41
+Bus E,103.77269,1.29713,S 17,Next Stop,40
+Bus E,103.77286,1.29734,S 17,Next Stop,39
+Bus E,103.77288,1.29736,S 17,Next Stop,38
+Bus E,103.7729,1.2974,S 17,Next Stop,37
+Bus E,103.77293,1.29745,S 17,Next Stop,36
+Bus E,103.77298,1.29753,S 17,Next Stop,35
+Bus E,103.77303,1.29766,S 17,Next Stop,34
+Bus E,103.77305,1.29772,S 17,Next Stop,33
+Bus E,103.77306,1.29776,S 17,Next Stop,32
+Bus E,103.77308,1.29779,S 17,Next Stop,31
+Bus E,103.77309,1.29782,S 17,Next Stop,30
+Bus E,103.77311,1.29785,S 17,Next Stop,29
+Bus E,103.77314,1.29789,S 17,Next Stop,28
+Bus E,103.77318,1.29793,S 17,Next Stop,27
+Bus E,103.77321,1.29796,S 17,Next Stop,26
+Bus E,103.77324,1.29799,S 17,Next Stop,25
+Bus E,103.77329,1.29803,S 17,Next Stop,24
+Bus E,103.77332,1.29805,S 17,Next Stop,23
+Bus E,103.77339,1.2981,S 17,Next Stop,22
+Bus E,103.77347,1.29814,S 17,Next Stop,21
+Bus E,103.77369,1.29828,S 17,Next Stop,20
+Bus E,103.77371,1.2983,S 17,Next Stop,19
+Bus E,103.77376,1.29834,S 17,Next Stop,18
+Bus E,103.77382,1.29838,S 17,Next Stop,17
+Bus E,103.77385,1.29842,S 17,Next Stop,16
+Bus E,103.77388,1.29844,S 17,Next Stop,15
+Bus E,103.77391,1.29847,S 17,Next Stop,14
+Bus E,103.77394,1.29853,S 17,Next Stop,13
+Bus E,103.77399,1.2986,S 17,Next Stop,12
+Bus E,103.77406,1.29868,S 17,Next Stop,11
+Bus E,103.77418,1.29884,S 17,Next Stop,10
+Bus E,103.77419,1.29885,S 17,Next Stop,9
+Bus E,103.77431,1.29909,S 17,Next Stop,8
+Bus E,103.77445,1.29935,S 17,Next Stop,7
+Bus E,103.77448,1.29951,S 17,Next Stop,6
+Bus E,103.7745,1.29956,S 17,Next Stop,5
+Bus E,103.77452,1.2996,S 17,Next Stop,4
+Bus E,103.77454,1.29963,S 17,Next Stop,3
+Bus E,103.77452,1.29978,S 17,Next Stop,2
+Bus E,103.77452,1.29986,S 17,Next Stop,1
+Bus E,103.77451,1.29991,S 17,Arrived,0
+Bus E,103.77449,1.30005,Opp Kent Ridge MRT,Next Stop,44
+Bus E,103.77447,1.30012,Opp Kent Ridge MRT,Next Stop,43
+Bus E,103.77441,1.30025,Opp Kent Ridge MRT,Next Stop,42
+Bus E,103.77427,1.30053,Opp Kent Ridge MRT,Next Stop,41
+Bus E,103.77426,1.30053,Opp Kent Ridge MRT,Next Stop,40
+Bus E,103.77425,1.30052,Opp Kent Ridge MRT,Next Stop,39
+Bus E,103.77424,1.30052,Opp Kent Ridge MRT,Next Stop,38
+Bus E,103.77423,1.30052,Opp Kent Ridge MRT,Next Stop,37
+Bus E,103.77422,1.30053,Opp Kent Ridge MRT,Next Stop,36
+Bus E,103.77421,1.30053,Opp Kent Ridge MRT,Next Stop,35
+Bus E,103.7742,1.30053,Opp Kent Ridge MRT,Next Stop,34
+Bus E,103.77419,1.30053,Opp Kent Ridge MRT,Next Stop,33
+Bus E,103.77419,1.30054,Opp Kent Ridge MRT,Next Stop,32
+Bus E,103.77418,1.30054,Opp Kent Ridge MRT,Next Stop,31
+Bus E,103.77417,1.30055,Opp Kent Ridge MRT,Next Stop,30
+Bus E,103.77416,1.30055,Opp Kent Ridge MRT,Next Stop,29
+Bus E,103.77416,1.30056,Opp Kent Ridge MRT,Next Stop,28
+Bus E,103.77415,1.30057,Opp Kent Ridge MRT,Next Stop,27
+Bus E,103.77414,1.30058,Opp Kent Ridge MRT,Next Stop,26
+Bus E,103.77414,1.30059,Opp Kent Ridge MRT,Next Stop,25
+Bus E,103.77413,1.30059,Opp Kent Ridge MRT,Next Stop,24
+Bus E,103.77413,1.3006,Opp Kent Ridge MRT,Next Stop,23
+Bus E,103.77413,1.30061,Opp Kent Ridge MRT,Next Stop,22
+Bus E,103.77412,1.30062,Opp Kent Ridge MRT,Next Stop,21
+Bus E,103.77412,1.30063,Opp Kent Ridge MRT,Next Stop,20
+Bus E,103.77412,1.30064,Opp Kent Ridge MRT,Next Stop,19
+Bus E,103.77412,1.30065,Opp Kent Ridge MRT,Next Stop,18
+Bus E,103.77412,1.30066,Opp Kent Ridge MRT,Next Stop,17
+Bus E,103.77412,1.30067,Opp Kent Ridge MRT,Next Stop,16
+Bus E,103.77412,1.30068,Opp Kent Ridge MRT,Next Stop,15
+Bus E,103.77412,1.30069,Opp Kent Ridge MRT,Next Stop,14
+Bus E,103.77412,1.3007,Opp Kent Ridge MRT,Next Stop,13
+Bus E,103.77412,1.30071,Opp Kent Ridge MRT,Next Stop,12
+Bus E,103.77413,1.30072,Opp Kent Ridge MRT,Next Stop,11
+Bus E,103.77413,1.30073,Opp Kent Ridge MRT,Next Stop,10
+Bus E,103.77413,1.30074,Opp Kent Ridge MRT,Next Stop,9
+Bus E,103.77414,1.30074,Opp Kent Ridge MRT,Next Stop,8
+Bus E,103.77414,1.30075,Opp Kent Ridge MRT,Next Stop,7
+Bus E,103.77415,1.30075,Opp Kent Ridge MRT,Next Stop,6
+Bus E,103.77415,1.30076,Opp Kent Ridge MRT,Next Stop,5
+Bus E,103.77416,1.30076,Opp Kent Ridge MRT,Next Stop,4
+Bus E,103.77416,1.30077,Opp Kent Ridge MRT,Next Stop,3
+Bus E,103.77417,1.30077,Opp Kent Ridge MRT,Next Stop,2
+Bus E,103.77418,1.30078,Opp Kent Ridge MRT,Next Stop,1
+Bus E,103.77419,1.30078,Opp Kent Ridge MRT,Arrived,0
+Bus E,103.7742,1.30078,Engin 5,Next Stop,44
+Bus E,103.77421,1.30079,Engin 5,Next Stop,43
+Bus E,103.77427,1.30084,Engin 5,Next Stop,42
+Bus E,103.7743,1.30086,Engin 5,Next Stop,41
+Bus E,103.77432,1.30088,Engin 5,Next Stop,40
+Bus E,103.77441,1.30095,Engin 5,Next Stop,39
+Bus E,103.77444,1.30102,Engin 5,Next Stop,38
+Bus E,103.77445,1.30107,Engin 5,Next Stop,37
+Bus E,103.77447,1.30115,Engin 5,Next Stop,36
+Bus E,103.77448,1.30127,Engin 5,Next Stop,35
+Bus E,103.77447,1.30137,Engin 5,Next Stop,34
+Bus E,103.77447,1.30138,Engin 5,Next Stop,33
+Bus E,103.77444,1.30148,Engin 5,Next Stop,32
+Bus E,103.77436,1.30166,Engin 5,Next Stop,31
+Bus E,103.77422,1.30198,Engin 5,Next Stop,30
+Bus E,103.77407,1.3023,Engin 5,Next Stop,29
+Bus E,103.77406,1.30233,Engin 5,Next Stop,28
+Bus E,103.774,1.30247,Engin 5,Next Stop,27
+Bus E,103.77398,1.30255,Engin 5,Next Stop,26
+Bus E,103.77398,1.30256,Engin 5,Next Stop,25
+Bus E,103.77397,1.30262,Engin 5,Next Stop,24
+Bus E,103.77396,1.30271,Engin 5,Next Stop,23
+Bus E,103.77397,1.3028,Engin 5,Next Stop,22
+Bus E,103.77398,1.30289,Engin 5,Next Stop,21
+Bus E,103.77399,1.30291,Engin 5,Next Stop,20
+Bus E,103.774,1.30295,Engin 5,Next Stop,19
+Bus E,103.77401,1.303,Engin 5,Next Stop,18
+Bus E,103.77404,1.30306,Engin 5,Next Stop,17
+Bus E,103.77405,1.30307,Engin 5,Next Stop,16
+Bus E,103.77408,1.30313,Engin 5,Next Stop,15
+Bus E,103.77411,1.30318,Engin 5,Next Stop,14
+Bus E,103.77415,1.30322,Engin 5,Next Stop,13
+Bus E,103.77415,1.30323,Engin 5,Next Stop,12
+Bus E,103.77421,1.30329,Engin 5,Next Stop,11
+Bus E,103.77427,1.30335,Engin 5,Next Stop,10
+Bus E,103.77435,1.30342,Engin 5,Next Stop,9
+Bus E,103.77441,1.30347,Engin 5,Next Stop,8
+Bus E,103.77447,1.30351,Engin 5,Next Stop,7
+Bus E,103.77453,1.30356,Engin 5,Next Stop,6
+Bus E,103.77458,1.30358,Engin 5,Next Stop,5
