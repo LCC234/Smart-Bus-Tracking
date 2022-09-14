@@ -5,25 +5,20 @@ from tb_gateway_mqtt import TBGatewayMqttClient
 import time, threading
 import random
 
-
-
+log_level = logging.INFO
 log_filename = './log/' + 'others.log'
-logging.basicConfig(filename=log_filename,
-                    filemode='a',
-                    format='%(asctime)s, %(name)s %(levelname)s %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S',
-                    level=logging.DEBUG)
-
-console_log = logging.StreamHandler()
-console_log.setLevel(logging.DEBUG)
-console_formatter = logging.Formatter('%(asctime)s, %(name)-12s: %(levelname)-8s %(message)s',"%Y-%m-%d %H:%M:%S")
-console_log.setFormatter(console_formatter)
-logging.getLogger('').addHandler(console_log)
-
 log = logging.getLogger(__name__)
-handler = TimedRotatingFileHandler(log_filename, when="midnight", interval=1)
-log.addHandler(handler)
+log.setLevel(log_level)
 
+## Here we define our formatter
+formatter = logging.Formatter('%(asctime)s, %(name)s %(levelname)s %(message)s','%Y-%m-%d %H:%M:%S')
+
+logHandler = TimedRotatingFileHandler(log_filename,  when="midnight", interval=1)
+logHandler.setLevel(log_level)
+## Here we set our logHandler's formatter
+logHandler.setFormatter(formatter)
+
+log.addHandler(logHandler)
 
 publish = True
 idx_d1 = 0
@@ -156,9 +151,10 @@ def send_telemetry( bus_name,
                                                                     "health_des":bus_health_des,
                                                                     "bus_stop":bus_stop,
                                                                     "bus_stop_status":bus_stop_status,
-                                                                    "bus_health_color":bus_health_color}}
+                                                                    "bus_health_color":bus_health_color,
+                                                                    "emergency_feature": ''}}
 
-    log.debug("{}) {} {}".format(idx, bus_name, telemetry)) 
+    # log.debug("{}) {} {}".format(idx, bus_name, telemetry)) 
     
     gateway.gw_send_telemetry(bus_name, telemetry)
 
@@ -186,7 +182,7 @@ def rpc_request_response(request_id, request_body):
 def main():
   global gateway, list_CSV_d1, list_CSV_d2,list_CSV_e,list_CSV_k
   
-  gateway = TBGatewayMqttClient(host="10.60.3.26", token="BIYnxIrSElG6D6kyryNT")
+  gateway = TBGatewayMqttClient(host="10.90.0.176", token="vJoOdSAlPel77I3nuYjX")
   gateway.connect()
   gateway.gw_set_server_side_rpc_request_handler(rpc_request_response)
   
@@ -224,7 +220,8 @@ def main():
   log.info("Read Telemetry CSV K. Total Record: %s" % len(list_CSV_k))
   
 #   time.sleep(5)
-  setInterval(publishTelemetry,2)
+  log.info("Buses Running")
+  setInterval(publishTelemetry,1)
 
 if __name__ == '__main__':
     main()

@@ -5,24 +5,21 @@ from tb_gateway_mqtt import TBGatewayMqttClient
 import time, threading
 import random
 
-
-
+log_level = logging.INFO
 log_filename = './log/' + 'bus_A1.log'
-logging.basicConfig(filename=log_filename,
-                    filemode='a',
-                    format='%(asctime)s, %(name)s %(levelname)s %(message)s',
-                    datefmt='%Y-%m-%d %H:%M:%S',
-                    level=logging.DEBUG)
-
-console_log = logging.StreamHandler()
-console_log.setLevel(logging.DEBUG)
-console_formatter = logging.Formatter('%(asctime)s, %(name)-12s: %(levelname)-8s %(message)s',"%Y-%m-%d %H:%M:%S")
-console_log.setFormatter(console_formatter)
-logging.getLogger('').addHandler(console_log)
-
 log = logging.getLogger(__name__)
-handler = TimedRotatingFileHandler(log_filename, when="midnight", interval=1)
-log.addHandler(handler)
+log.setLevel(log_level)
+
+## Here we define our formatter
+formatter = logging.Formatter('%(asctime)s, %(name)s %(levelname)s %(message)s','%Y-%m-%d %H:%M:%S')
+
+logHandler = TimedRotatingFileHandler(log_filename,  when="midnight", interval=1)
+logHandler.setLevel(log_level)
+## Here we set our logHandler's formatter
+logHandler.setFormatter(formatter)
+
+log.addHandler(logHandler)
+
 
 publish = True
 idx = 0
@@ -70,17 +67,17 @@ def execute_msg(msg):
     global bus_healthy_count, bus_warning_count, bus_damaged_count
 
     if msg == 'refuel':
-        log.debug("Refuel Message Received")
+        log.info("Refuel Message Received")
         bus_fuel_level = 100
         clear_msg()
 
     if 'deplete_fuel' in msg:
-        log.debug("Deplete Message Received")
+        log.log_level("Deplete Message Received")
         bus_fuel_level = float(msg.split(' ')[1])
         clear_msg()
 
     if 'reset' in msg:
-        log.debug("Reset Message Received")
+        log.log_level("Reset Message Received")
         
         bus_speed = 0
         bus_fuel_level = 80
@@ -99,22 +96,22 @@ def execute_msg(msg):
         
     
     if 'ac_faulty' in msg:
-        log.debug("A/C Faulty Message Received")
+        log.log_level("A/C Faulty Message Received")
         ac_faulty = True
         clear_msg()
 
     if 'ac_repair' in msg:
-        log.debug("A/C Repair Message Received")
+        log.log_level("A/C Repair Message Received")
         ac_faulty = False
         clear_msg()
 
     if 'fixed_bus_multi' in msg:
-        log.debug("Fix Occupany Multiplier Message Received")
+        log.log_level("Fix Occupany Multiplier Message Received")
         bus_occupancy_fixed = float(msg.split(' ')[1])
         clear_msg()
     
     if 'hot_engine' in msg:
-        log.debug("Hot Engine Message Received")
+        log.log_level("Hot Engine Message Received")
         engine_faulty = True
         clear_msg()
 
@@ -160,7 +157,8 @@ def bus_down():
     global engine_faulty
 
     msg = ''
-    health_des = 'Engine Overheated<div id=\"btn_contact_tech\" style=\"border:solid;user-select:none;display:block; width: 90%; font-size:1rem;text-align:center;padding:5px; margin-top:12px;cursor:pointer;\">Contact Technician</div>'
+    health_des = 'Engine Overheated'
+    emergency_button = '<div id=\"btn_contact_tech\" style=\"border:solid;user-select:none;display:block; width: 90%; font-size:1rem;text-align:center;padding:5px; margin-top:12px;cursor:pointer;\">Contact Technician</div>'
     update_health('Damaged',health_des, '#E94560')
     update_bus_status_count(4,0,1)
 
@@ -182,7 +180,7 @@ def bus_down():
                 bus_occupancy, 
                 bus_eta, 
                 bus_health_status,
-                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count)
+                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count,emergency_button)
 
         time.sleep(1)
 
@@ -224,7 +222,7 @@ def usual_routine():
                 bus_occupancy, 
                 bus_eta, 
                 bus_health_status,
-                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count)
+                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count,'')
 
 
             time.sleep(1)
@@ -257,7 +255,7 @@ def usual_routine():
                 bus_occupancy, 
                 bus_eta, 
                 bus_health_status,
-                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count)
+                bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count,'')
     
         
     idx+=1
@@ -357,7 +355,7 @@ def send_telemetry(bus_longitude,
                     bus_occupancy, 
                     bus_eta, 
                     bus_health_status,
-                    bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count):
+                    bus_health_color, bus_healthy_count, bus_warning_count, bus_damaged_count,emergency_feature):
 
     
     telemetry = {"ts": int(round(time.time() * 1000)), "values": {  "fuel": bus_fuel_level, 
@@ -375,9 +373,10 @@ def send_telemetry(bus_longitude,
                                                                     "bus_health_color":bus_health_color,
                                                                     "healthy_count":bus_healthy_count,
                                                                     "warning_count":bus_warning_count,
-                                                                    "damaged_count":bus_damaged_count}}
+                                                                    "damaged_count":bus_damaged_count,
+                                                                    "emergency_feature": emergency_feature}}
 
-    log.debug("{}) {} {}".format(idx, list_CSV[idx][0], telemetry)) 
+    # log.debug("{}) {} {}".format(idx, list_CSV[idx][0], telemetry)) 
     
     gateway.gw_send_telemetry(list_CSV[idx][0], telemetry)
 
@@ -407,7 +406,7 @@ def rpc_request_response(request_id, request_body):
 def main():
   global gateway, list_CSV
   
-  gateway = TBGatewayMqttClient(host="10.60.3.26", token="BIYnxIrSElG6D6kyryNT")
+  gateway = TBGatewayMqttClient(host="10.90.0.176", token="vJoOdSAlPel77I3nuYjX")
   gateway.connect()
   gateway.gw_set_server_side_rpc_request_handler(rpc_request_response)
   
@@ -427,7 +426,8 @@ def main():
   log.info("Read Telemetry CSV. Total Record: %s" % len(list_CSV))
   
 #   time.sleep(5)
-  setInterval(publishTelemetry,2)
+  log.info("Bus Running")
+  setInterval(publishTelemetry,1)
 
 if __name__ == '__main__':
     main()

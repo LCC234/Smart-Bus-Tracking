@@ -1,2 +1,0 @@
-Trigger to disable bus (breakdown, on repair) & restore
-add tyre pressure
