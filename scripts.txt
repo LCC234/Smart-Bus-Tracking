@@ -1,0 +1,20 @@
+cd ~/app/gradhire_db
+nohup python3 dashboard_bus_A1.py > log/bus_A1.log &   
+nohup python3 dashboard_other_buses.py > log/others.log &
+
+ps ax | grep py
+kill PID
+
+tail -f log/others.log
+tail -f log/bus_A1.log
+
+cd ~/app/gradhire_db/scenarios/
+
+python3 ac_faulty.py
+python3 ac_repair.py
+python3 deplete_fuel.py
+python3 refuel.py
+python3 hot_engine.py
+
+
+ls -l --block-size=M log/
